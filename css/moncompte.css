@@ -1,0 +1,58 @@
+ body {
+    font-family:Arial;
+    max-width:700px;
+    margin:2rem auto;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.danger { 
+    color: red; 
+}
+.card {
+    background: blanchedalmond;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:1rem;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1); 
+    width: 1000px;
+    height: 500px;
+}
+.card2 {
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:1rem;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1); 
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:1rem;
+}
+img {
+    width: 100px;
+}
+.card p {
+    color: #2a2a2a;
+}
+.card2 p {
+    color: rgb(0, 0, 0);
+}
+.return {
+    background-color: #fff;
+    width: 25px;         
+    height: 25px;
+    border:1px solid #000000;
+    border-radius: 50%;
+    text-align: center;
+}
+.return a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);    
+}
